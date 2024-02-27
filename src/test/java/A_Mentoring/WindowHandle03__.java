@@ -1,6 +1,7 @@
 package A_Mentoring;
 
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 import utils.TestBase;
 
 import java.util.Iterator;
@@ -29,23 +30,27 @@ public class WindowHandle03__ extends TestBase {
 
         driver.get("https://www.tkmaxx.com/LandingPage/");
         String ersteWindow = driver.getWindowHandle();
-      //  System.out.println(ersteWindow);
         driver.switchTo().newWindow(TAB);
         driver.get("https://ikea.com");
 
+
         driver.switchTo().newWindow(WINDOW);
         String zweiteWindow = driver.getWindowHandle();
-       // System.out.println(zweiteWindow);
         driver.get("https://facebook.com");
+        if (driver.findElement(By.xpath("//button[@title='Tüm çerezlere izin ver']")).isDisplayed()) {
+            driver.findElement(By.xpath("//button[@title='Tüm çerezlere izin ver']")).click();
+        }
         driver.switchTo().newWindow(TAB);
+        String zweiteTab = driver.getWindowHandle();
+        driver.switchTo().window(zweiteTab);
         driver.get("https://google.com");
 
         driver.switchTo().newWindow(WINDOW);
         String dritteWindow = driver.getWindowHandle();
-       // System.out.println(dritteWindow);
         driver.get("https://linked.com");
         driver.switchTo().newWindow(TAB);
         driver.get("https://flipgrid.com/");
+        driver.switchTo().defaultContent();
 
 
         Set<String> windowHandleSet = driver.getWindowHandles();
@@ -58,8 +63,6 @@ public class WindowHandle03__ extends TestBase {
                 assertTrue((BooleanSupplier) driver.switchTo().window(currentHandle ));
             }
         }
-
-
 
 
 

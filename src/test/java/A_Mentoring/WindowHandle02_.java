@@ -16,6 +16,7 @@ public class WindowHandle02_ extends TestBase {
     @Test
     public void withGetShadowRootMethod(){
         driver.get("https://www.tkmaxx.com/LandingPage/");
+        System.out.println();
 
 
     }
