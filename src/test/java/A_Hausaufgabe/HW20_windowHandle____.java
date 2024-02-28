@@ -2,7 +2,6 @@ package A_Hausaufgabe;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import utils.TestBase;
 
@@ -10,7 +9,7 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class HW20_windowHandle extends TestBase {
+public class HW20_windowHandle____ extends TestBase {
     //Go to URL: https://the-internet.herokuapp.com/windows
 //Verify the text: "Opening a new window"
 

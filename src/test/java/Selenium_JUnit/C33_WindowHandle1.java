@@ -42,8 +42,6 @@ public class C33_WindowHandle1 extends TestBase {
         //Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login in the window that opens
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
-
-
-
     }
+
 }
