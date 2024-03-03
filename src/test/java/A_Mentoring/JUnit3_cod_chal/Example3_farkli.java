@@ -1,6 +1,5 @@
-package A_Mentoring.JUnit_cod_chal;
+package A_Mentoring.JUnit3_cod_chal;
 
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

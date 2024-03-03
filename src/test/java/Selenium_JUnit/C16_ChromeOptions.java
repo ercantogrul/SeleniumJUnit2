@@ -21,15 +21,15 @@ public class C16_ChromeOptions {
 
 Selenium WebDriver'da Chrome sürücüsünün çeşitli özelliklerini değiştirmek için kullanılan bir kavramdır.
 
-start-maximized: Chrome'u büyütme modunda açar.
+start-maximized: Chrome'u büyütme modunda açar.*****************
 incognito: Chrome'u gizli modda açar.
 headless: Chrome'u görüntülenmeyen modda çalıştırır.(headless modda)
 disable-extensions: Chrome tarayıcısında mevcut uzantıları devre dışı bırakır.
-disable-popup-blocking: Chrome tarayıcısında görüntülenen açılır pencereleri devre dışı bırakır.
+disable-popup-blocking: Chrome tarayıcısında görüntülenen açılır pencereleri devre dışı bırakır.**********************
 make-default-browser: Chrome'u varsayılan tarayıcı yapar.
 version: Chrome tarayıcı sürümünü yazdırır.
 disable-infobars: Chrome'un "Chrome otomatik yazılım tarafından kontrol ediliyor" bildirimini görüntülemesini engeller.
-disable-cookies: cerezleri bloke eder.
+disable-cookies: cerezleri bloke eder.*********************
  */
     static WebDriver driver;
     @BeforeAll

@@ -41,20 +41,17 @@ public class HW21_windowHandle extends TestBase {
         //Print the text present on all the child windows in the console.
         for (String s : driver.getWindowHandles()) {
             System.out.println(s);
-            if (!s.equals(main)) {
-                driver.switchTo().window(s);
-                System.out.println("driver.findElement(By.xpath(\"//*[@id='sampleHeading']\")).getText() = " + driver.findElement(By.xpath("//*[@id='sampleHeading']")).getText());
-                System.out.println("driver.findElement(By.cssSelector(\"html>body\")).getText() = " + driver.findElement(By.cssSelector("html>body")).getText());
 
-//                if (driver.findElement(By.xpath("//*[@id='sampleHeading']")).isEnabled()) {
-//                    System.out.println("driver.findElement(By.xpath(\"//*[@id='sampleHeading']\")).getText() = " +
-//                            driver.findElement(By.xpath("//*[@id='sampleHeading']")).getText());
-//
-//                } else if (driver.findElement(By.xpath("/html/body/text()")).isDisplayed()) {
-//                    System.out.println("driver.findElement(By.xpath(\"//html/body/text()\")).getText() = " +
-//                            driver.findElement(By.cssSelector("html>body")).getText());
-//                }
+            driver.switchTo().window(s);
+            System.out.println("driver.getTitle() = " + driver.getTitle());
+            if (driver.getTitle().toLowerCase().contains("demoqa.com")) {
+                System.out.println("driver.findElement(By.cssSelector(\"html>body\")).getText() = " + driver.findElement(By.cssSelector("html>body")).getText());
             }
+            if (driver.getTitle().contains("about:blank")) {
+                System.out.println("driver.findElement(By.xpath(\"//*[@id='sampleHeading']\")).getText() = " + driver.findElement(By.xpath("//*[@id='sampleHeading']")).getText());
+            }
+
+
         }
         //   Print the heading of the parent window in the console.
         driver.switchTo().window(main);

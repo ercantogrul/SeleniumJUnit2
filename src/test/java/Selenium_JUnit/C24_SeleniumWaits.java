@@ -10,27 +10,45 @@ public class C24_SeleniumWaits {
             .titleIs -> title bu olana kadar bekle
             .titleContains -> title ın da bu kelime geçene kadar bekle
             .visibilityOfTheElement -> eleman gözükene kadar bekle
-            .elementToBeClickable -> eleman tıklanabilir olana kadar bekle
+            .elementToBeClickable -> eleman tıklanabilir olana kadar bekle ********************
             .elementToBeSelected -> eleman seçilebilir olana kadar bekle
             .alertIsPresent()  -> alert çıkana kadar bekle.
             .textToBe -> elemanda verilen txt gözükene kadar bekle.
             .InvisibilityOfTheElement -> eleman kaybolana kadar bekle
 
-    Her ikisi tanımlı ise : önce Implicit kullanılır, ve üzerine Explicit in süresi eklenerek
+             Her ikisi tanımlı ise : önce Implicit kullanılır, ve üzerine Explicit in süresi eklenerek
     toplam hata sınır süresi ortaya çıkmış olur.
     Selenium waits, (senkronizasyon) : Kodlarimizla, internet ve bilgisayarin calismasini uyumlu hale
     getirmek icin bazen kodlarimizi bekletmemiz gerekir.
+
+==================================================================================================
+
             Thread.sleep() : Java’dan gelir ve kodlari durdurur. Kendisine verilen surenin tamamini bekler.
     Dinamik degil statiktir.
+    ==================================================================================================
 
             implicitlyWait : Selenium’dan gelir. Sayfanin yuklenmesi ve herbir webElementin locate edilmesi
     icin beklenecek max. sureyi belirler. Esnektir. Esas olan beklemek degil, kodun calismasini
     saglamaktir. Kod calisirsa beklemeden devam, kod calismazsa max.sure doluncaya bekler ve
-    sonra hata mesaji verir(Exception).
+    sonra hata mesaji verir(Exception). //  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));  // 15 saniye bekle
+    =========================================================================================================
 
-    ExplicitlyWait : Selenium’dan gelir, spesifik bir islem icin beklenecek max. sureyi belirler.
+           ExplicitlyWait : Selenium’dan gelir, spesifik bir islem icin beklenecek max. sureyi belirler.
     ExplicitlyWait kullanabilmek icin wait objesi olusturmamiz gerekir.
             wait.until(expectedConditions….. Istedigimiz fonk.) seklinde kullanilir.
     Genellikle wait.until() method’u locate ile birlikte kullanilir.
- */
+    /*
+      örnek:
+        WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(40)); // wait objesi tanimladik bekleme süresi 4 saniye
+
+        WebElement button= driver.findElement(By.xpath("//span[.='1']"));
+        wait.until(ExpectedConditions.elementToBeClickable(button)); // üstteki element tiklanabilir olana kadar bekle
+        button.click();
+
+        WebElement buttonplus= driver.findElement(By.xpath("//span[.='+']"));
+        wait.until(ExpectedConditions.elementToBeClickable(buttonplus)); // üstteki element tiklanabilir olana kadar bekle
+        buttonplus.click();
+   */
+
+
 }

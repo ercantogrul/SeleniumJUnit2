@@ -1,14 +1,12 @@
-package A_Mentoring;
+package A_Mentoring.JUnit4_windowHandle;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WindowType;
 import utils.TestBase;
 
 import java.util.Iterator;
 import java.util.Set;
-import java.util.function.BooleanSupplier;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.openqa.selenium.WindowType.*;

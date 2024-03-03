@@ -1,4 +1,4 @@
-package A_Mentoring;
+package A_Mentoring.JUnit4_windowHandle;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

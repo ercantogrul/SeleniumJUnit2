@@ -1,3 +1,4 @@
+package Selenium_JUnit;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -20,6 +21,20 @@ public class C41_KeyBoardActions extends TestBase {
     @Test
     public void testKeyboardActions() {
         driver.get("https://demoqa.com/auto-complete");
+        if (driver.findElement(By.xpath("//*[.='İzin ver']/p")).isDisplayed()) {
+            driver.findElement(By.xpath("//*[.='İzin ver']/p")).click();
+        }
+
+        WebElement singleColor = driver.findElement(By.id("autoCompleteSingleContainer"));
+        actions
+                .click(singleColor) // metin yazilacak locater i tikladik
+                .keyDown(Keys.SHIFT)  // shift tusuna bastik ilk harfi büyük yazmak icin
+                .sendKeys("e")         // e tusuna bastik
+                .keyUp(Keys.SHIFT)    // shift tusunu biraktik geri kalan kismi kücük yazmak icin
+                .sendKeys("xceptional") // e den sonra ki kismi yazdik
+                .pause(3)       // biraz bekledik
+                .perform();  // calistirdik
+
 
     }
 }
