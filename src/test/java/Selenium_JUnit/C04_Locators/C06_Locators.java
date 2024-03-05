@@ -50,7 +50,7 @@ public class C06_Locators {
     }
     @AfterAll
     public static void afterAll() {
-        driver.quit();
+       driver.quit();
     }
     @Test
     public void test1(){
@@ -59,7 +59,14 @@ public class C06_Locators {
         WebElement searcBox3 = driver.findElement(By.className("nav-input nav-progressive-attribute"));
         WebElement searcBox4 = driver.findElement(By.tagName("input"));
         WebElement link = driver.findElement(By.linkText("Advertise Your Products"));
+        /*
+        <a href="https://advertising.amazon.com/?ref=ext_amzn_ftr"
+        class="nav_a">Advertise Your Products</a>
+        yani taglar arasindaki Text alinir
+         */
+
         WebElement link2 = driver.findElement(By.partialLinkText("Advertise"));
+        // partialLinkText de ise kisa bir parca alinir
 
     }
 

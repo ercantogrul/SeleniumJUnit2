@@ -3,7 +3,7 @@ package Selenium_JUnit.C01_driverMethodlari;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class C06_TitleTestWithFirefox {
+public class C06_TitleTestWithFirefox_Ternary {
 
     /*
  Invoke FireFox Driver

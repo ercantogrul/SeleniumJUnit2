@@ -15,18 +15,25 @@ public class C07_Xpath {
     //  format : //tagName[@attribute = 'value']
     // amazon.com sayfasında xpath practise yapıyoruz.
     /*
-    Xpath, Absolute ve Relative olarak 2 türe ayrılır. Absolute, bir öğeyi doğrudan ve kolay bir şekilde bulabileceğiniz yoldur.
-    Devtools'dan almak istediğiniz verinin copy full xpath ile yolunu alabilirsiniz.
-    Absolute için tek önemli nokta, alacağınız verinin web sitesi üzerinde değişmeyecek olması.
-    Relative ise DOM içerisinde almak istediğiniz veriyi tümüyle aramanızı sağlar.
-    Absolute haricinde bu yol için Devtools’tan copy xpath üzerinden erişim sağlayabilirsiniz.
+    Xpath, Absolute ve Relative olarak 2 türe ayrılır.
+    Absolute xpath;  * Mutlak XPath, bir HTML veya XML belgesinde bir elementi tam yoluyla tanımlayan bir XPath türüdür.
+                       Bu, belirli bir elemente ulaşmak için sayfa yapısındaki hiyerarşiyi tam olarak takip eder.
+                     * Devtools'dan almak istediğiniz verinin copy full xpath ile yolunu alabilirsiniz.
+                       Absolute için tek önemli nokta, alacağınız verinin web sitesi üzerinde değişmeyecek olması. eger degisirse elemente ulasamayiz
+                    // /html/body/div[1]/header/div/div[1]/div[2]/div/form/div[2]/div[1]/input
+
+
+    Relative xpath; Göreceli XPath, bir HTML veya XML belgesindeki elementlere erişmek için kullanılan XPath türlerinden biridir. Mutlak XPath'in aksine,
+                    göreceli XPath elementler arasındaki ilişkileri belirler ve belirli bir elementi diğer bir elemente göre bulmak için kullanılır.
+                    Absolute haricinde bu yol için Devtools’tan copy xpath üzerinden erişim sağlayabilirsiniz.
+                //  //*[@id="twotabsearchtextbox"]
      */
 
     // /html/body/div[1]/header/div/div[1]/div[2]/div/form/div[2]/div[1]/input
     // copy full xpath kullanmayiz cünkü bu bir elementin bir soy icerisindeki yerini verir ama Developer arada yenilik yapip araya bir element ekleye bilir
 
     // //*[@id="twotabsearchtextbox"]  ama bu id ile direk elementi bulmamizi saglar
-    // * tagi her ne olursa olsun demek
+    // * Tag'i her ne olursa olsun demek
     // id attribute ismi
     // "twotabsearchtextbox" attribute Value
 

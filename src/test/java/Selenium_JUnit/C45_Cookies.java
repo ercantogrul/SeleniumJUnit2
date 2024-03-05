@@ -11,6 +11,14 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class C45_Cookies extends TestBase {
+    //Edit Cookie.  ******************edit diye bir method yok ancak isim ayni value degistirerek edit etmis oluyoruz****************
+    /*
+    Selenium'da "cookies" (çerezler), bir web tarayıcısının bir web sitesiyle etkileşim sırasında sakladığı bilgilerdir.
+    Çerezler genellikle bir web sitesine bağlı olarak oturum durumunu, kullanıcı tercihlerini, oturum kimlik bilgilerini ve
+    diğer çeşitli kullanıcı bilgilerini tutarlar. Selenium, otomatik test senaryolarını yürütmek veya web tarayıcısını kontrol etmek için kullanıldığında,
+    çerezlerin işlenmesi ve yönetilmesi önemli bir konudur.
+     */
+
     //***Cookie cookie  = driver.manage().cookie-methods
 
     //Go to URL: https://kitchen.applitools.com/ingredients/cookie
@@ -51,7 +59,7 @@ public class C45_Cookies extends TestBase {
             System.out.println(c1);
         }
 
-        //Edit Cookie.
+        //Edit Cookie.  ******************edit diye bir method yok ancak isim ayni value degistirerek edit etmis oluyoruz****************
         System.out.println("_____________________________//Edit Cookie.____________________________");
         Cookie editCookie = new Cookie("vegetable","cucumber");
         driver.manage().addCookie(editCookie);

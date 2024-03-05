@@ -7,7 +7,7 @@ public class C46_FilesInfo {
     @Test
     public void test1() {
 
-        // DOSYA YOLUNU AYIRAN KARAKTERi VERiR___\
+        // DOSYA YOLUNU AYIRAN KARAKTERi VERiR___\**********************
         System.out.println("1) " + System.getProperty("file.separator"));
 
         // PROJENiN YUKLU OLDUGU ADRESi VE YUKLU OLAN JAR DOSYALARININ ADRESLERiNi GOSTERiR
@@ -37,7 +37,7 @@ public class C46_FilesInfo {
         // KULLANICI CALISMA DiZiNi- projenin content rootu---(C:\Users\etogr\IdeaProjects\Selenium2_JUnit)
         System.out.println("10) " + System.getProperty("user.dir"));
 
-        // KULLANICI ANA DiZiNi - windows user C nin altindaki isim____C:\Users\etogr
+        // KULLANICI ANA DiZiNi - windows user C nin altindaki isim____C:\Users\etogr   *********************
         System.out.println("11) " + System.getProperty("user.home"));
 
         // KULLANICI HESABI ADI_____Ercan

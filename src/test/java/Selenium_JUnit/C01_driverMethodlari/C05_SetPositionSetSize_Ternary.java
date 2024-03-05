@@ -5,7 +5,7 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class C05_SetPositionSetSize {
+public class C05_SetPositionSetSize_Ternary {
     /*
  Go to the Amazon URL : https://www.amazon.com/
  Print the position and size of the page.

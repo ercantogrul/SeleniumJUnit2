@@ -42,6 +42,13 @@ public class C13_DynamicXpath {
     //a[starts-with(@id,'u_')] -> ile başlayan
     //a[ends-with(@id,'_f7')]    -> ile biten
     //a[contains(@id,'u_')]    -> içinde geçen
+
+    text element
+    //tagname[.='textmetin']
+    //*[.='textmetin']
+    //*[text()='textmetin']
+    //*[contains(text()='textmetin')]
+
      */
 
     static WebDriver driver;
@@ -79,7 +86,7 @@ public class C13_DynamicXpath {
     @Test
     public void test2(){
         WebElement usernameBox = driver.findElement(By.xpath("//form[starts-with(@id,'u_')]//input[contains(@placeholder,'Telefon')]"));
-        // burada / birinci derece cocuk demek__ // alt soydaki bütün cocuklari ifade eder
+        // burada / (isareti) birinci derece cocuk demek__ // (isareti) alt soydaki bütün cocuklari ifade eder
         //parentdan asagi dogru inerek child bir elementi 1 of 1 olarak bulmak
         usernameBox.sendKeys("abc@gmail.com");
 
@@ -91,6 +98,7 @@ public class C13_DynamicXpath {
         WebElement loginButton = driver.findElement(By.xpath("//*[@class='_6ltg']/button[@type='submit']"));
         ////div[@class='_6luv _52jv']//button[@name='login']
         loginButton.click();
+
 
 
 

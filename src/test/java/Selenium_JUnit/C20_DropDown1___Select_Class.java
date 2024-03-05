@@ -11,11 +11,14 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
-public class C20_DropDown1 {
+public class C20_DropDown1___Select_Class {
     //Dropdown : acilir pencere
     //Dropdownlar ozel etkilesimler gerektirdiginden dolayi Selenium bize dropdownlar icin ayri bir class olusturmustur..
     //Class-> Select
-    //elementi manuel ince diyince__tagname Select ise eleman Dropdown dur
+    //elementi manuel incele diyince_____tagname Select ise eleman Dropdown dur
+
+    //Select classi kullanilirken parametre olarak verilen elementimiz kesinlikle <select> olmalidir..
+    //<select> olmadiginda UnexpectedTagNameException firlatilir..
 
     /*Dropdownlar ile calisirken
         * <select> elementi locate edilir  : //select[@id='oldSelectMenu']
@@ -49,7 +52,7 @@ public class C20_DropDown1 {
     }
     @AfterAll
     public static void tearDown(){
-        driver.close();
+      driver.close();
     }//Close driver.
 
     @Test

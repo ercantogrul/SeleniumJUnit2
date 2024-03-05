@@ -7,6 +7,22 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class C04_AssertionMethods {
+    /*
+ JUnit ve TestNG gibi test çerçevelerinde yaygın olarak kullanılan bazı assertion metodları şunlardır:
+
+assertEquals(): İki değeri karşılaştırır ve eşit olup olmadığını kontrol eder.
+    assertEquals(expected, actual);
+assertTrue(): Bir koşulu kontrol eder ve koşulun doğru olup olmadığını kontrol eder.
+    assertTrue(condition);
+assertFalse(): Bir koşulu kontrol eder ve koşulun yanlış olup olmadığını kontrol eder.
+    assertFalse(condition);
+assertNull(): Bir nesnenin null olup olmadığını kontrol eder.
+    assertNull(object);
+assertNotNull(): Bir nesnenin null olmadığını kontrol eder.
+    assertNotNull(object);
+assertArrayEquals(): İki diziyi karşılaştırır ve eşit olup olmadıklarını kontrol eder.
+    assertArrayEquals(expectedArray, actualArray);
+     */
 
     @Test
     public void assertEqualsTest(){

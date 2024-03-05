@@ -26,7 +26,22 @@ public class C01_JUnit {
 *  Regression Test, Smoke Test vb.
 * Testmethod'u ise @Test notasyonu kullanılarak oluşturulan ve bağımsız olarak çalıştırabileceğimiz en küçük test yapısıdır.
 @Test annotation : Test methodu
-*/
+*
+
+
+/*
+JUnit, Java dilinde yazılmış bir unit test çerçevesidir. "JUnit" adı, Java için "unit test" anlamına gelir ve bu çerçeve,
+yazılım geliştirme sürecinde yazılım birimlerinin (genellikle metodların) doğru çalışıp çalışmadığını test etmek için kullanılır.
+ */
+
+/*
+"Framework", yazılım geliştirme sürecinde kullanılan bir yapı veya çerçeve anlamına gelir. Bir framework, genellikle belirli
+bir programlama dili veya teknoloji üzerinde çalışan, belirli bir amaca hizmet eden, tekrar kullanılabilir bileşenlerden oluşan bir yapıdır.
+Bu bileşenler, genellikle belirli bir işlevi gerçekleştirmek için önceden tanımlanmış işlevselliğe, kütüphanelere,
+standartlara ve tasarım kalıplarına sahiptir.
+ */
+
+
     static WebDriver driver;
 
     @Test

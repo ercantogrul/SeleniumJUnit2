@@ -14,7 +14,7 @@ import java.time.Duration;
 
 public class C25_Alert1 {
     /*
-    js tabanlidir
+
 Alerts : Web sitelerinde iki tur alert vardir.
     1.HTML alerts : sag click yapip incelenebilir, dolayisla diger web elementler gibidir
     2.JS alerts: bunlar sag click yapilip incelenemez, dolayisiyla da diger WebElementler’den farklidir.

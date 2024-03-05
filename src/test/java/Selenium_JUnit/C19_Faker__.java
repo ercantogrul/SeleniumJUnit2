@@ -18,6 +18,8 @@ public class C19_Faker__ {
         System.out.println(faker.address().city());
         System.out.println(faker.address().country());
         System.out.println(faker.date().birthday());
+        System.out.println(faker.number().randomDigit());  //metodu, 0 ile 9 arasında rastgele bir tam sayı üretir ve bu değeri döndürür.
+        System.out.println(faker.number().digit());  //metodu, 0 ile 9 arasında rastgele bir rakam üretir ve bu değeri döndürür.
     }
 
 
