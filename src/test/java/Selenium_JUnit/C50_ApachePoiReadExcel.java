@@ -43,7 +43,7 @@ public class C50_ApachePoiReadExcel {
         String path2 ="C:\\Users\\etogr\\IdeaProjects\\Selenium2_JUnit\\src\\test\\resources\\excelfile.xlsx";  // manualy
 
         // Open the workbook using file input stream.
-        FileInputStream fis = new FileInputStream(path1);  // bu dosyayi akisa aldim
+        FileInputStream fis = new FileInputStream(path1);  // bu dosyayi akisa aldim (akisa aldiktan sonra bir objeye cevirdik)
         Workbook wb = WorkbookFactory.create(fis);  // javanin icine hayali bir exel dosyaya aktardik
 
         // Open the first worksheet. (worksheet in isminden gidiyoruz ismi "Sayfa1", index "0")
@@ -99,6 +99,8 @@ public class C50_ApachePoiReadExcel {
         // verify that you have Türkiye on the list
         assertTrue(countryArea.containsKey("Türkiye"));
 
+
+        // olusturulan method ile veriyi almak
         System.out.println(C51_ApachePoiGetData.getDataStringSheet("Sayfa1",7,0));
 
     }

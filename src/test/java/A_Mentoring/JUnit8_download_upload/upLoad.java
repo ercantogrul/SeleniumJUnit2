@@ -1,4 +1,4 @@
-package A_Mentoring;
+package A_Mentoring.JUnit8_download_upload;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -29,4 +29,6 @@ public class upLoad extends TestBase {
         assertTrue(uploadedMessage.isDisplayed());  // uploadedMessage görünüyor mu
         driver.quit();
     }
+
+
 }

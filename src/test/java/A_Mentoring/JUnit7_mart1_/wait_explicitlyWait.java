@@ -1,4 +1,4 @@
-package A_Mentoring.mart1_JUnit7;
+package A_Mentoring.JUnit7_mart1_;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
