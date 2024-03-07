@@ -1,15 +1,18 @@
 
 package utils;
 
+import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 
 public abstract class TestBase {
     /*
@@ -41,5 +44,35 @@ Dolayısıyla oluşturduğumuz driver variable'i için protected access modifier
     @AfterAll
     public static void tearDown(){
        // driver.quit();
+    }
+    public static void getFullscreenShoot (WebDriver driver)  {
+        String data = new SimpleDateFormat("yyyy-MM-dd__hh__mm_ss").format(new Date());
+
+        // Take Full Page Screenshot.
+        TakesScreenshot ts = (TakesScreenshot) TestBase.driver;
+
+        File source = ts.getScreenshotAs(OutputType.FILE);
+
+        File destination = new File(".\\testOutput\\ScreenShots\\FullPageScreenshot"+data+".png");
+       try {
+           FileUtils.copyFile(source,destination);
+       }catch (IOException e) {
+
+       }
+
+    }
+    public static void getSpecificScreenShoot (WebElement element)  {
+
+        String data = new SimpleDateFormat("yyyy-MM-dd__hh__mm_ss").format(new Date());
+
+        File source1 = element.getScreenshotAs(OutputType.FILE);
+        File destination1 = new File(".\\testOutput\\ScreenShots\\SpecificScreenShoot"+data+".png");
+
+        try {
+            FileUtils.copyFile(source1,destination1);
+        }catch (IOException e) {
+
+        }
+
     }
 }

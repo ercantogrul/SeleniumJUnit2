@@ -58,6 +58,7 @@ public class C31_Clear {
         Thread.sleep(3000);
         //textBox.sendKeys("clear() calisiyoruz."); // ikinci yöntemde
 
+        //3.yöntem
         int times = textBox.getText().length();// ücüncü
         for (int i = 0; i < times; i++){
             textBox.sendKeys(Keys.BACK_SPACE);

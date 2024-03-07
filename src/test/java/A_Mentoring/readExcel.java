@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 
-public class aa extends TestBase {
+public class readExcel extends TestBase {
     //Muhtesem.xlsx dosyasındaki isimleri yazdırın
     //Muhtesem.xlsx Id'leri yazdırın
     //Yukardakaki isim ve Id leri bir Map'te toplayarak yazdırın

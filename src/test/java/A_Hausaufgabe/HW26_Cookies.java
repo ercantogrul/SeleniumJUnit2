@@ -3,14 +3,12 @@ package A_Hausaufgabe;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
 import utils.TestBase;
 
 import java.awt.*;
 import java.util.Set;
 
-public class HW26_ extends TestBase {
+public class HW26_Cookies extends TestBase {
     /*
     Go to URL: http://facebook.com
     getCookies,

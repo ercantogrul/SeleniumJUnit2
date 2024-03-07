@@ -30,7 +30,8 @@ public class C55_WebTables extends TestBase {
         //Go to URL: http://demo.guru99.com/test/web-table-element.php
         driver.get("http://demo.guru99.com/test/web-table-element.php");
 
-        WebElement webTable = driver.findElement(By.xpath("//table[@class='dataTable']"));
+        WebElement webTable = driver.findElement(By.xpath("//table[@class='dataTable'"));
+
 
         Thread.sleep(2000);
         driver.switchTo().frame("gdpr-consent-notice");

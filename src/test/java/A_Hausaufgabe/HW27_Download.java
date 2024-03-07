@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class HW27_ extends TestBase {
+public class HW27_Download extends TestBase {
     //Go to URL: https://opensource-demo.orangehrmlive.com/
 //Login page valid credentials.
 //Download sample CSV file. pim->configuration->importData CSV file dosya yolu budur.

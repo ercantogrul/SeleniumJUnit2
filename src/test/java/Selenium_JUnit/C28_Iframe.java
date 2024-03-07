@@ -14,6 +14,36 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class C28_Iframe {
+    /*
+===================================
+Selenium, web tabanlı uygulamaların otomatik test edilmesi için kullanılan bir araçtır. İframe'ler (inline frame),
+bir HTML dokümanında başka bir HTML dokümanını içeren bir yapıdır. Selenium ile bir iframe içindeki öğeleri bulmak ve
+etkileşimde bulunmak için aşağıdaki gibi bir Python kodu kullanabilirsiniz:
+# Web sayfasını aç
+driver.get("http://www.example.com")
+
+# İframe'i seç
+iframe = driver.find_element_by_xpath("//iframe[@id='iframe_id']")
+
+# İframe'e geçiş yap
+driver.switch_to.frame(iframe)
+
+# İframe içindeki öğeleri bulmak ve etkileşime girmek için gerekli kodları ekleyin
+# Örneğin: bir öğe tıklama
+element = driver.find_element_by_xpath("//button[@id='button_id']")
+element.click()
+
+# İframe içinden çıkış yap
+driver.switch_to.default_content()
+
+driver.switchTo().frame("gdpr-consent-notice");
+WebElement acceptButton = driver.findElement(By.xpath("//*[.='Accept All']"));
+if (acceptButton.isDisplayed()){
+    acceptButton.click();
+}
+driver.switchTo().defaultContent();
+======================================
+     */
     //Go to URL: https://the-internet.herokuapp.com/iframe
     //Verify the Bolded text contains “Editor”
     //Locate the text box
