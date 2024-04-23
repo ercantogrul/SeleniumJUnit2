@@ -43,7 +43,7 @@ Dolayısıyla oluşturduğumuz driver variable'i için protected access modifier
     }
     @AfterAll
     public static void tearDown(){
-       // driver.quit();
+        driver.quit();
     }
     public static void getFullscreenShoot (WebDriver driver)  {
         String data = new SimpleDateFormat("yyyy-MM-dd__hh__mm_ss").format(new Date());

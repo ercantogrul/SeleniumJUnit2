@@ -45,6 +45,7 @@ Onay kutuları, kullanıcının bir veya birden çok özelliği (tercihi) aktif 
         Go to URL:  https://www.facebook.com/
         Click on Create an Account button.
         Then click on the radio buttons.
+
          */
     static WebDriver driver;
 

@@ -22,6 +22,7 @@ public class C22_DropDown3 {
     Select 'Saab' using value and deselect the same using value.
     Deselect all the options.
     Close the browser.
+
      */
 
 }

@@ -1,0 +1,8 @@
+[INFO ] 2024-03-06 11:09:07.690 [main] C56_Log4j - bu bir info mesajidir
+[WARN ] 2024-03-06 11:09:07.691 [main] C56_Log4j - bu bir warn mesajidir
+[ERROR] 2024-03-06 11:09:07.691 [main] C56_Log4j - bu bir error mesajidir
+[FATAL] 2024-03-06 11:09:07.691 [main] C56_Log4j - bu bir fatal mesajidir
+[INFO ] 2024-03-06 11:12:58.204 [main] C56_Log4j - bu bir info mesajidir
+[WARN ] 2024-03-06 11:12:58.211 [main] C56_Log4j - bu bir warn mesajidir
+[ERROR] 2024-03-06 11:12:58.211 [main] C56_Log4j - bu bir error mesajidir
+[FATAL] 2024-03-06 11:12:58.211 [main] C56_Log4j - bu bir fatal mesajidir

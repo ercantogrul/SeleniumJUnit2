@@ -81,7 +81,7 @@ public class HW32____amazon_test extends TestBase {
 
         WebElement passwordButton = driver.findElement(By.xpath("//input[@id='ap_password']"));
         passwordButton.click();
-        passwordButton.sendKeys("***");
+        passwordButton.sendKeys("****");
         WebElement anmelden = driver.findElement(By.id("signInSubmit"));
         anmelden.click();
 

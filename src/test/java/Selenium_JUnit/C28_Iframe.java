@@ -16,6 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class C28_Iframe {
     /*
 ===================================
+****site icerisine farkli kücük siteciklerin yerlestirilmesi gibi
 Selenium, web tabanlı uygulamaların otomatik test edilmesi için kullanılan bir araçtır. İframe'ler (inline frame),
 bir HTML dokümanında başka bir HTML dokümanını içeren bir yapıdır. Selenium ile bir iframe içindeki öğeleri bulmak ve
 etkileşimde bulunmak için aşağıdaki gibi bir Python kodu kullanabilirsiniz:
