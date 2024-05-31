@@ -24,6 +24,7 @@ Verify the visibility of Perfect text.
         driver.switchTo().frame(iframe);
         if (driver.findElement(By.xpath("//*[@id=\"save\"]/span[1]/div/span")).isDisplayed()) {
             driver.findElement(By.xpath("//*[@id=\"save\"]/span[1]/div/span")).click();
+
         }
 
         //Drag and drop the BANK button to the Account section in DEBIT SIDE
@@ -45,6 +46,7 @@ Verify the visibility of Perfect text.
         WebElement funfTBox2 = driver.findElement(By.xpath("(//*[@id=\"fourth\"]/a)[2]"));
         WebElement funfTBox2neuerOrt = driver.findElement(By.xpath("//*[@id=\"amt8\"]/li"));
         actions.dragAndDrop(funfTBox2, funfTBox2neuerOrt).perform();
+
 
        // Verify the visibility of Perfect text.
         WebElement perfectText = driver.findElement(By.xpath("(//*[@id=\"equal\"]/a)[1]"));

@@ -7,7 +7,7 @@ import utils.TestBase;
 
 public class action extends TestBase {
     // Goto https://selenium08.blogspot.com/2020/01/click-and-hold.html
-    //Click and hold C letter
+    //Click and hold C letter (C harfine tıklayıp basılı tutun)
     //Locate Search Box click and hold after release()
     @Test
     public void test(){

@@ -27,7 +27,7 @@ public class Keys_TAB_actions extends TestBase {
         driver.get("https://www.calculator.de/bmi-rechner.html");
         WebElement grose = driver.findElement(By.xpath("//*[@id=\"height\"]"));
         actions
-                .click(grose).sendKeys("182")
+                .click(grose).sendKeys("182").pause(2000)
                 .sendKeys(Keys.TAB)
                 .sendKeys("90")
                 .sendKeys(Keys.TAB)
