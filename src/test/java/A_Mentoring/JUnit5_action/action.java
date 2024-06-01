@@ -13,12 +13,12 @@ public class action extends TestBase {
     public void test(){
         driver.get("https://selenium08.blogspot.com/2020/01/click-and-hold.html");
 
+
         WebElement anladim = driver.findElement(By.xpath("//*[@id=\"cookieChoiceDismiss\"]"));
         anladim.click();
 
         WebElement c = driver.findElement(By.xpath("//*[@id=\"sortable\"]/li[3]"));
        actions.clickAndHold(c).pause(3).release().perform();
-
 
         WebElement searchBox = driver.findElement(By.xpath("//div[@class='search-expand-text']"));
         actions.clickAndHold(searchBox).release().perform();
