@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da305f6-a4a8-4ddb-b77b-3bd29996a383" name="Changes" comment="erste commit">
-      <change beforePath="$PROJECT_DIR$/src/test/java/A_Hausaufgabe/HW32____amazon_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/A_Hausaufgabe/HW32____amazon_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_JUnit/C28_Iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_JUnit/C28_Iframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
       <recent name="A_Mentoring.JUnit_cod_chal" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HW32____amazon_test.test">
+  <component name="RunManager" selected="JUnit.Keys_TAB_actions.test2">
     <configuration name="HW32____amazon_test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium2_JUnit5" />
       <extension name="coverage">
@@ -97,49 +95,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task4________.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Keys_TAB_actions.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium2_JUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A_Mentoring.*" />
+          <option name="PATTERN" value="A_Mentoring.JUnit7_mart1_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A_Mentoring" />
-      <option name="MAIN_CLASS_NAME" value="A_Mentoring.task4________" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="A_Mentoring.JUnit7_mart1_" />
+      <option name="MAIN_CLASS_NAME" value="A_Mentoring.JUnit7_mart1_.Keys_TAB_actions" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task4________.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="dragAndDropBy.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium2_JUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A_Mentoring.*" />
+          <option name="PATTERN" value="A_Mentoring.JUnit5_action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A_Mentoring" />
-      <option name="MAIN_CLASS_NAME" value="A_Mentoring.task4________" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="PACKAGE_NAME" value="A_Mentoring.JUnit5_action" />
+      <option name="MAIN_CLASS_NAME" value="A_Mentoring.JUnit5_action.dragAndDropBy" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task4________.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="maus_actions.testSlider1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium2_JUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A_Mentoring.*" />
+          <option name="PATTERN" value="A_Mentoring.JUnit5_action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="A_Mentoring" />
-      <option name="MAIN_CLASS_NAME" value="A_Mentoring.task4________" />
-      <option name="METHOD_NAME" value="test8" />
+      <option name="PACKAGE_NAME" value="A_Mentoring.JUnit5_action" />
+      <option name="MAIN_CLASS_NAME" value="A_Mentoring.JUnit5_action.maus_actions" />
+      <option name="METHOD_NAME" value="testSlider1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Keys_TAB_actions.test2" />
+        <item itemvalue="JUnit.maus_actions.testSlider1" />
+        <item itemvalue="JUnit.dragAndDropBy.test" />
         <item itemvalue="JUnit.HW32____amazon_test.test" />
         <item itemvalue="JUnit.HW32____amazon_test.testa" />
-        <item itemvalue="JUnit.task4________.test4" />
-        <item itemvalue="JUnit.task4________.test8" />
-        <item itemvalue="JUnit.task4________.test7" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +242,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710028223737</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="erste commit">
+      <option name="closed" value="true" />
+      <created>1713875127835</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713875127835</updated>
+    </task>
+    <task id="LOCAL-00012" summary="erste commit">
+      <option name="closed" value="true" />
+      <created>1717189212897</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717189212897</updated>
+    </task>
+    <task id="LOCAL-00013" summary="erste commit">
+      <option name="closed" value="true" />
+      <created>1717256623821</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717256623821</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

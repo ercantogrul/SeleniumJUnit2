@@ -62,12 +62,10 @@ standartlara ve tasarım kalıplarına sahiptir.
     }
     @Test
     public void test02(){
-
         driver.get("https://www.facebook.com/");
     }
     @Test
     public void test03(){
-
         driver.get("https://www.youtube.com/");
         System.out.println(driver.getTitle());
     }
