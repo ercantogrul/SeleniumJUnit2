@@ -24,6 +24,7 @@ public class JavascriptUtils {
     public static void scrollDownByJS(WebDriver driver) {
         JavascriptExecutor jsexecutor = ((JavascriptExecutor) driver);
         jsexecutor.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+
     }
     //    Scroll al the way up of a page  ****(SAYFAYI TEKRAR YUKARI KAYDIR)********************
     public static void scrollAllUpByJS(WebDriver driver){

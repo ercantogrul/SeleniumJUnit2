@@ -33,6 +33,8 @@ Then verify that checkbox 1 is checked.
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://the-internet.herokuapp.com/checkboxes");
+
+
     }
     @AfterAll
     public static void tearDown(){
@@ -53,5 +55,6 @@ Then verify that checkbox 1 is checked.
         Thread.sleep(3000);
 
         assertTrue(check1.isSelected());
+
     }
 }

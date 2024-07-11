@@ -64,6 +64,7 @@ public class C13_DynamicXpath {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://www.facebook.com/");
         Thread.sleep(2000);
+
     }
     @AfterAll
     public static void tearDown(){
@@ -79,8 +80,6 @@ public class C13_DynamicXpath {
 
         WebElement loginButton = driver.findElement(By.xpath("//button[contains(text(),'Yap')]"));
         loginButton.click();
-
-
 
     }
     @Test
