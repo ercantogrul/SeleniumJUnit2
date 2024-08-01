@@ -98,6 +98,9 @@ public class C13_DynamicXpath {
         ////div[@class='_6luv _52jv']//button[@name='login']
         loginButton.click();
 
+        //kardesin xpat ini almak icin kullanilan kod /preceding-sibling::
+        // android.widget.TextView[@text='Wunschliste']/preceding-sibling::android.widget.ImageView
+
 
 
 

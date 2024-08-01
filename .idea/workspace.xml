@@ -62,7 +62,23 @@
       <recent name="A_Mentoring.JUnit_cod_chal" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Keys_TAB_actions.test2">
+  <component name="RunManager" selected="JUnit.C25_Alert1.test">
+    <configuration name="C25_Alert1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium2_JUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium_JUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_JUnit.C25_Alert1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HW32____amazon_test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium2_JUnit5" />
       <extension name="coverage">
@@ -74,22 +90,6 @@
       <option name="PACKAGE_NAME" value="A_Hausaufgabe" />
       <option name="MAIN_CLASS_NAME" value="A_Hausaufgabe.HW32____amazon_test" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HW32____amazon_test.testa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium2_JUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A_Hausaufgabe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A_Hausaufgabe" />
-      <option name="MAIN_CLASS_NAME" value="A_Hausaufgabe.HW32____amazon_test" />
-      <option name="METHOD_NAME" value="testa" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C25_Alert1.test" />
         <item itemvalue="JUnit.Keys_TAB_actions.test2" />
         <item itemvalue="JUnit.maus_actions.testSlider1" />
         <item itemvalue="JUnit.dragAndDropBy.test" />
         <item itemvalue="JUnit.HW32____amazon_test.test" />
-        <item itemvalue="JUnit.HW32____amazon_test.testa" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720095098588</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="erste commit">
+      <option name="closed" value="true" />
+      <created>1720709016312</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720709016312</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
