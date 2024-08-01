@@ -98,14 +98,19 @@ public class C13_DynamicXpath {
         ////div[@class='_6luv _52jv']//button[@name='login']
         loginButton.click();
 
-        //elemandan->kardese
+        //1----elemandan->kardese ->yukari dogru
         // kardesin xpat ini almak icin kullanilan kod /preceding-sibling::
         // android.widget.TextView[@text='Wunschliste']/preceding-sibling::android.widget.ImageView
 
-        //cocuk->babaya  babadan ->kardese (ayni hizadalar)
+        //2----cocuk->babaya  babadan ->kardese (ayni hizadalar)
         //android.widget.TextView[@text='Favorilerim']/parent::android.view.ViewGroup/preceding-sibling::android.widget.ImageView
 
-
+        //3-----elemandan ->kardese ->asagi dogru
+        // Varsayılan XPath'iniz şu şekilde olsun: //div[@id='parent']
+        //Bu durumda, parent div'in altındaki ilk div etiketine ulaşmak için şu XPath'i kullanabilirsiniz:
+        ////div[@id='parent']/following-sibling::div[1]   Bu XPath, parent div'in hemen ardından gelen ilk div etiketini seçer.
+        //Eğer altındaki herhangi bir etiket değil de sadece birinci div etiketine gitmek istiyorsanız:
+        ////div[@id='parent']/div[1]   Bu da parent div'in altındaki ilk div etiketini seçer.
 
 
 
